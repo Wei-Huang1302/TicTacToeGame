@@ -6,7 +6,7 @@ using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
 
-//Group 6: Joe Huang, Ny Lee, Sonam Sonam, Chaitany Virothi, Harpreet Kaur
+
 namespace TIcTacToeGame
 {
     class TicTacToeVM : INotifyPropertyChanged

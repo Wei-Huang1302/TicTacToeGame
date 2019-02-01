@@ -18,7 +18,7 @@ namespace TIcTacToeGame
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    /// //Group 6: Joe Huang, Ny Lee, Sonam Sonam, Chaitany Virothi, Harpreet Kaur
+
     public partial class MainWindow : Window
     {
         TicTacToeVM tvm = new TicTacToeVM();

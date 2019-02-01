@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:TIcTacToeGame"
         mc:Ignorable="d"
         Title="Tic Tac Toe Game" Height="800" Width="650" Background="AliceBlue">
-    <!--Group 6: Joe Huang, Ny Lee, Sonam Sonam, Chaitany Virothi, Harpreet Kaur-->
+  
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
