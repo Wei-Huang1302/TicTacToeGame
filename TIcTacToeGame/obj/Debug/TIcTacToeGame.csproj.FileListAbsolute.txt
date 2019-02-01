@@ -1,0 +1,15 @@
+C:\Users\chauvet\source\repos\TIcTacToeGame\TIcTacToeGame\obj\Debug\TIcTacToeGame.csprojAssemblyReference.cache
+C:\Users\chauvet\source\repos\TIcTacToeGame\TIcTacToeGame\obj\Debug\MainWindow.g.cs
+C:\Users\chauvet\source\repos\TIcTacToeGame\TIcTacToeGame\obj\Debug\App.g.cs
+C:\Users\chauvet\source\repos\TIcTacToeGame\TIcTacToeGame\obj\Debug\TIcTacToeGame_MarkupCompile.cache
+C:\Users\chauvet\source\repos\TIcTacToeGame\TIcTacToeGame\obj\Debug\TIcTacToeGame_MarkupCompile.lref
+C:\Users\chauvet\source\repos\TIcTacToeGame\TIcTacToeGame\bin\Debug\TIcTacToeGame.exe.config
+C:\Users\chauvet\source\repos\TIcTacToeGame\TIcTacToeGame\bin\Debug\TIcTacToeGame.exe
+C:\Users\chauvet\source\repos\TIcTacToeGame\TIcTacToeGame\bin\Debug\TIcTacToeGame.pdb
+C:\Users\chauvet\source\repos\TIcTacToeGame\TIcTacToeGame\obj\Debug\MainWindow.baml
+C:\Users\chauvet\source\repos\TIcTacToeGame\TIcTacToeGame\obj\Debug\TIcTacToeGame.g.resources
+C:\Users\chauvet\source\repos\TIcTacToeGame\TIcTacToeGame\obj\Debug\TIcTacToeGame.Properties.Resources.resources
+C:\Users\chauvet\source\repos\TIcTacToeGame\TIcTacToeGame\obj\Debug\TIcTacToeGame.csproj.GenerateResource.cache
+C:\Users\chauvet\source\repos\TIcTacToeGame\TIcTacToeGame\obj\Debug\TIcTacToeGame.csproj.CoreCompileInputs.cache
+C:\Users\chauvet\source\repos\TIcTacToeGame\TIcTacToeGame\obj\Debug\TIcTacToeGame.exe
+C:\Users\chauvet\source\repos\TIcTacToeGame\TIcTacToeGame\obj\Debug\TIcTacToeGame.pdb

@@ -1,0 +1,51 @@
+﻿<Window x:Class="TIcTacToeGame.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TIcTacToeGame"
+        mc:Ignorable="d"
+        Title="Tic Tac Toe Game" Height="800" Width="650" Background="AliceBlue">
+    <!--Group 6: Joe Huang, Ny Lee, Sonam Sonam, Chaitany Virothi, Harpreet Kaur-->
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="2*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+        <Label Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="3" HorizontalContentAlignment="Center"
+               Content="Tic Tac Toe Game" FontSize="35" FontWeight="Bold"/>
+        <Label Grid.Row="1" Grid.Column="0" FontSize="40" FontWeight="Bold" HorizontalContentAlignment="Center"
+               Content="{Binding PositionOne, UpdateSourceTrigger=PropertyChanged}"  />
+        <Label Grid.Row="1" Grid.Column="1" FontSize="40" FontWeight="Bold" HorizontalContentAlignment="Center"
+               Content="{Binding PositionTwo, UpdateSourceTrigger=PropertyChanged}" />
+        <Label Grid.Row="1" Grid.Column="2" FontSize="40" FontWeight="Bold" HorizontalContentAlignment="Center"
+               Content="{Binding PositionThree, UpdateSourceTrigger=PropertyChanged}" />
+        <Label Grid.Row="2" Grid.Column="0" FontSize="40" FontWeight="Bold" HorizontalContentAlignment="Center"
+               Content="{Binding PositionFour, UpdateSourceTrigger=PropertyChanged}" />
+        <Label Grid.Row="2" Grid.Column="1" FontSize="40" FontWeight="Bold" HorizontalContentAlignment="Center"
+               Content="{Binding PositionFive, UpdateSourceTrigger=PropertyChanged}" />
+        <Label Grid.Row="2" Grid.Column="2" FontSize="40" FontWeight="Bold" HorizontalContentAlignment="Center"
+               Content="{Binding PositionSix, UpdateSourceTrigger=PropertyChanged}" />
+        <Label Grid.Row="3" Grid.Column="0" FontSize="40" FontWeight="Bold" HorizontalContentAlignment="Center"
+               Content="{Binding PositionSeven, UpdateSourceTrigger=PropertyChanged}" />
+        <Label Grid.Row="3" Grid.Column="1" FontSize="40" FontWeight="Bold" HorizontalContentAlignment="Center"
+               Content="{Binding PositionEight, UpdateSourceTrigger=PropertyChanged}" />
+        <Label Grid.Row="3" Grid.Column="2" FontSize="40" FontWeight="Bold" HorizontalContentAlignment="Center"
+               Content="{Binding PositionNine, UpdateSourceTrigger=PropertyChanged}" />
+        <Label Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="3" FontSize="40" FontWeight="Bold" HorizontalContentAlignment="Center"
+               Content="{Binding ShowResult, UpdateSourceTrigger=PropertyChanged}" />
+        <Button Grid.Row="5" Grid.Column="0" Name="Start" Content="Start" 
+                Margin="15" Click="Start_Click"/>
+        <Button Grid.Row="5" Grid.Column="2" Name="Reset" Content="Reset" 
+                Margin="15" Click="Reset_Click"/>
+    </Grid>
+</Window>
